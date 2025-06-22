@@ -72,5 +72,3 @@ Feito com 💙 por @pguilheerme
 
 📄 Licença
 Este projeto está licenciado sob a licença MIT.
-
-> > > > > > > 991e471c981f1ff7ac643094498eab71e18c35dd
