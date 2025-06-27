@@ -30,7 +30,10 @@ export const useTaskStore = create<TaskState>((set, get) => ({
         page,
         title
       );
-      set({ tasks: response.tarefa, totalPages: response.totalDePaginas });
+      set({
+        tasks: response.resposta.tarefas,
+        totalPages: response.resposta.totalDePaginas,
+      });
     } catch (error) {
       console.error("Erro ao buscar tarefas:", error);
     } finally {

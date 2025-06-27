@@ -9,11 +9,12 @@ export interface AuthRespose {
 }
 
 export type GetTaskResponse = {
-  resposta: string;
-  tarefa: GetTaskProp[];
-  totalDeTarefas: number;
-  paginaAtual: number;
-  totalDePaginas: number;
+  resposta: {
+    tarefas: GetTaskProp[];
+    totalDeTarefas: number;
+    paginaAtual: number;
+    totalDePaginas: number;
+  };
 };
 
 export type CreateTaskResponse = {

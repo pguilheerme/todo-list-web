@@ -52,6 +52,8 @@ const Login = () => {
             <Button
               variant="solid"
               type="submit"
+              size="large"
+              disabled={!form.formState.isValid}
               isLoading={form.formState.isSubmitting}
             >
               Entrar
